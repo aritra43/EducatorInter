@@ -136,4 +136,4 @@ if generate_button:
 
 # Footer
 st.markdown("----")
-st.markdown("Built by Aritra")
+st.markdown("Built by AritraM")
