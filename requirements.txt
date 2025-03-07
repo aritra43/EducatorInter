@@ -1,4 +1,4 @@
 crewai
-crewai[tools]
+crewai_tools
 pip==25.0.1
 streamlit
