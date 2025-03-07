@@ -2,4 +2,3 @@ crewai
 crewai[tools]
 pip==25.0.1
 streamlit
-pysqlite3
