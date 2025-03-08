@@ -2,7 +2,6 @@ from crewai import Agent
 # from tools import yt_tool
 # from dotenv import load_dotenv
 from crewai import LLM
-import litellm
 import openai
 import os
 from crewai import Agent, Crew, Process, Task
