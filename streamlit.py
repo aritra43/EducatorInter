@@ -2,12 +2,18 @@ from crewai import Agent
 # from tools import yt_tool
 # from dotenv import load_dotenv
 from crewai import LLM
+import litellm
+import openai
 import os
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from dotenv import load_dotenv
 from crewai_tools import FileReadTool, FileWriterTool
 import streamlit as st
+
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
 
