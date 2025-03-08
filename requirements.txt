@@ -1,5 +1,4 @@
 crewai
 crewai[tools]
 pip==25.0.1
-sqlite
 streamlit
