@@ -3,4 +3,3 @@ crewai_tools
 pip==25.0.1
 sqlite3 >= 3.35.0.
 streamlit
-pysqlite3-binary
